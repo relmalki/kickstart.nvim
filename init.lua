@@ -864,6 +864,20 @@ require('lazy').setup({
     end,
   },
   {
+    'stevearc/oil.nvim',
+    opts = {},
+    -- Optional dependencies
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+  },
+  {
+    'rmehri01/onenord.nvim',
+    priority = 1000,
+    init = function()
+      -- Load the colorscheme here.
+      vim.cmd.colorscheme 'onenord'
+    end,
+  },
+  {
     'epwalsh/obsidian.nvim',
     version = '*', -- recommended, use latest release instead of latest commit
     lazy = true,
