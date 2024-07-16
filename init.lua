@@ -899,10 +899,10 @@ require('lazy').setup({
       workspaces = {
         {
           name = 'personal',
-          path = '~/repos/mee/lifeeasy/funny/reditall',
+          path = '~/repos/mee/lifeeasy/funny/personal',
         },
         {
-          name = 'work',
+          name = 'funny',
           path = '~/repos/mee/lifeeasy/funny/funny',
         },
       },
